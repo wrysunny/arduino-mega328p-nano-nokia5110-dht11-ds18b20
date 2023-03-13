@@ -55,6 +55,7 @@ void loop() {
   display.print("Temp 2: ");
   display.println(temperature);
   display.print("Hum 2: ");
+  display.println(humidity);
   display.display();
   delay(5000);
 }
